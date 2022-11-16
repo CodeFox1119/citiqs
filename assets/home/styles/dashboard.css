@@ -1,0 +1,243 @@
+svg {
+	border-radius: 0px;
+  }
+.daterangepicker{
+	border-radius: 0;
+}
+.custom-select{
+	border-radius: 0;
+}
+  .date {
+	width: 100%;
+	height: 32px;
+	padding: .375rem .75rem;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 0;
+  }
+  .hidden {
+	display: none;
+  }
+  
+  .btn-refund {
+	background: #ff704d !important;
+	color: #fff !important;
+	border-color: #ff5c33 !important;
+  }
+  
+  .single-report {
+	/*border-radius: 20px !important;*/
+  }
+  
+  .glyphicon {
+	display: inline-block !important;
+	font: normal normal normal 14px/1 FontAwesome !important;
+	font-size: 14px !important;
+	font-size: inherit !important;
+	text-rendering: auto !important;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
+  }
+  
+  .glyphicon-check:before {
+	content: '\f046';
+  }
+  
+  .glyphicon-plus:before {
+	content: '\f067';
+  }
+  
+  .glyphicon-plus-sign:before {
+	content: '\f055';
+  }
+  
+  .glyphicon-random:before {
+	content: '\f074';
+  }
+  
+  .glyphicon-remove:before {
+	content: '\f00d';
+  }
+  
+  .glyphicon-sort:before {
+	content: '\f0dc';
+  }
+  
+  .glyphicon-unchecked:before {
+	content: '\f096';
+  }
+  
+  .glyphicon-warning-sign:before {
+	content: '\f071';
+  }
+  
+  .rule-value-container .form-control {
+	  height: 40px;
+  }
+
+  .rule-operator-container .form-control,.rule-filter-container .form-control,.group-actions {
+	margin-bottom: 5px;
+   }
+
+  .query-builder .rules-group-container {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 10px;
+	background-color: #f5f5f5;
+	border: 1px solid #f5f5f5;/*#e3e3e3;*/
+	border-radius: 14px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+	width: 100%;
+  }
+  
+  .query-main {
+	background: #f5f5f5;
+	border-radius: 10px;
+	border: 1px solid #e3e3e3;
+  }
+  text{
+	cursor: pointer;
+  }
+
+  .modal-body{
+	overflow:hidden;
+	overflow-y:scroll;
+	max-height: 500px;
+}
+
+.refundTable tr th, table tr td {
+	border-top: 0px solid rgba(120, 130, 140, 0.13) !important;
+	text-align: center;
+	border: 0px;
+}
+
+input:disabled{
+    background: #fff !important;
+    opacity: 1;
+}
+
+.amount{
+	max-width: 73px;
+	width: 73px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.quantity{
+	max-width: 60px;
+	width: 60px;
+	padding-left: 4px;
+}
+
+.border-danger{
+	border: 1px solid #df4759;
+}
+
+.s-report-inner {
+    padding-left: 40px !important;
+}
+
+@media only screen and (min-width: 850px) {
+	.col-custom {
+		flex: 0 0 20% !important;
+		max-width: 20% !important;
+	}
+  }
+
+  .gg-euro {
+	position: relative;
+	display: block;
+	transform: scale(var(--ggs,1));
+	width: 14px;
+	height: 14px;
+	border: 2px solid;
+	box-sizing: border-box;
+	border-radius: 100px;
+	border-right-color: transparent
+   }
+   
+   .gg-euro::after {
+	content: "";
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	transform: skewX(-20deg);
+	left: -4px;
+	top: 3px
+   }
+
+  .dash-card {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    min-height: 110px;
+	display: inline-grid;
+}
+
+.pt-25 {
+    padding-top: 25px !important;
+	align-self: flex-end;
+}
+
+.icon-c {
+    text-align: center;
+	font-size: 17px;
+	margin-right: .5rem;
+}
+
+.b-purple {
+	border-right: 2px solid rgb(143, 5, 143);
+}
+
+.b-red {
+	border-right: 2px solid rgba(206, 6, 6, 0.89);
+}
+
+.b-green {
+	border-right: 2px solid rgb(4, 194, 4);
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 800px) {
+    .dash-card {
+        -ms-flex: 0 0 23.84% !important;
+        flex: 0 0 23.84% !important;
+        max-width: 23.84% !important;
+    }
+
+	.first {
+		margin-left: 0px !important;
+	}
+
+	.last {
+		margin-right: 0px !important;
+	}
+}
+
+.ticket-info-card {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: flex-start;
+	display: -ms-grid;
+	display: grid !important;
+	height: 100%;
+
+}

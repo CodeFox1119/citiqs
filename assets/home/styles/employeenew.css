@@ -1,0 +1,64 @@
+.flatpickr-calendar{
+    font-family: 'caption-light', sans-serif !important;
+}
+.flatpickr-input{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: var(--button-radius);
+    width: 100%;
+    font-family: 'caption-light', sans-serif;
+    outline: none;
+}
+.flatpickr-calendar{
+    font-family: 'caption-light', sans-serif !important;
+}
+.flatpickr-input{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: var(--button-radius);
+    width: 100%;
+    font-family: 'caption-light', sans-serif;
+}
+.connectedSortable {
+    border: 1px solid #bebebe;
+    border-top: 15px solid #128cfc;
+	border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+	margin-bottom: 10px;
+  }
+  .connectedSortable li {
+    margin: 0 5px 5px 5px;
+    background-color: #f2f7ff;
+    padding: 5px;
+    font-size: 1.2em;
+    width: auto;
+    border: 0px solid #0b5aa2;
+    border-radius: 10px;
+  }
+  .ui-sortable-helper {
+      background-color: #bebebe !important;
+  }
+  .h1 {
+	font-size: 28px;
+	color: #000;
+  }
+
+  .title{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      background-color: #d9e7ff !important;
+      color: #000;
+      min-height: 60px;
+      margin-top: 5px;
+  }
+  .connectedSortable{overflow:hidden; overflow-y:scroll;}
+
+  
